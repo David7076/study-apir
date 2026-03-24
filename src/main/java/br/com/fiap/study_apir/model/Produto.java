@@ -4,6 +4,11 @@ public class Produto {
     private Long id;
     private String nome;
 
+    public Produto(Long id, String nome) {
+        this.id = id;
+        this.nome = nome;
+    }
+
     public Long getId() {
         return id;
     }
