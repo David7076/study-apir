@@ -10,7 +10,7 @@ jobs:
     steps:
         - uses: actions/checkout@v4
         -     name: "Imprimir "
-              run: echio "ola mundo"
+              run: echo "ola mundo"
         -     name: Step 2
               run: |
                 echo "teste xpto"
