@@ -4,12 +4,13 @@ on:
   push:
 jobs:
 
-  puhs_to_docker_hub:
+  push_to_docker_hub:
 
     runs-on: ubuntu-latest
     steps:
-
+        - uses: actions/checkout@v4
         -     name: "Imprimir "
               run: echio "ola mundo"
         -     name: Step 2
-              run: echo "teste xpto"
+              run: |
+                echo "teste xpto"
